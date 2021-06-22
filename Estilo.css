@@ -1,0 +1,96 @@
+*{
+    margin: 0; /*Tira a margem automática do HTML*/
+}
+
+body{
+    font-family: Arial;  /* Modifica a fonte do HTML */
+}
+
+main{
+    width: 1200px;  /* Tamanho do objeto da tag em largura */
+    margin: auto;   /* Centralizar com margens automáticas */
+}
+
+section{
+    width: 350px;   /* Tamanho e largura de cada section */
+    text-align: justify;
+}
+
+.pai{
+    /* Identidade da div que coordena as sections */
+    width: 1200px;
+    display: flex; /* Comportamento da div, flexibiliza conteúdos */
+    justify-content: space-between; /* Alinha os elementos dentro da div */
+    margin-bottom: 20px; /* Margem inferior da div */
+}
+
+header{
+    background-color: gainsboro; /* Cor de fundo */
+    text-align: center; /* Alinhamento de texto */
+    padding-top: 20px;  /* Espaçamento interno superior */
+    padding-bottom: 20px;  /* Espaço interno inferior */
+}
+
+p{
+    margin-bottom: 20px;
+    font-size: 14px; /* Tamanho da fonte */
+    line-height: 19px; /* Tamanho da linha */
+}
+
+h1{
+    color: blue;
+}
+
+h2, h3{
+    color: red;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* TABELA */
+
+table{
+    border: 1px solid black;
+    width: 1200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+th{
+    color: white;
+    background-color: blue;
+}
+
+th, td, tr{
+    border: 1px solid black; /* Tamanho + Tipo + Cor */
+    padding: 5px;
+}
+
+/* BOTÂO */
+
+.botao{
+    color:white;
+    background-color: blue;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+
+.botao:hover{  /* Comportamento do botão quando o mouse entra nele */
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    transition: 0.5s;
+}
+
+/* RODAPÈ */
+
+footer{
+    background-color: gainsboro;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
