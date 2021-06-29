@@ -1,0 +1,38 @@
+*{
+    margin: 0;                      /*Limpa as margens padrão do html*/
+}
+
+.menu{
+    width: 400px;                   /*Determina a largura do menu (classe)*/
+    display: flex;                  /*Flexibiliza os elementos*/
+    justify-content: space-between; /*Distribui os elementos*/
+    list-style: none;               /*Remove o comprortamento padrão de lista do html */
+    align-items: center;            /*alinha os itens dentro do menu*/
+    font-family: arial;             /*Determina a família tipográfica*/
+    color: saddlebrown;
+    text-transform: uppercase;      /*Coloca o texto em caixa alta*/
+}
+
+.menu a{                            /*Determina o comportamento geral dos links*/
+    text-decoration: none;  
+    color: saddlebrown;
+}
+
+.menu a:hover{
+    font-weight: bold;              /*Determina o comportamento do link com o mouse sobre ele*/
+}
+
+nav{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: beige;
+    margin: auto;
+}
+

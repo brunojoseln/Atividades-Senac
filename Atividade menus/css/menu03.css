@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+header{
+    background-color: #DAE3F4;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+
+img{
+    width: 120px;
+}
+
+.menu{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: black;
+}
+
+.menu a:hover{
+    font-weight: bold;
+    border-bottom: 1.5px solid black;
+}
+
+img a:hover{
+    border-bottom: 0px solid transparent;
+}
+
+nav{
+    width: 750px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
