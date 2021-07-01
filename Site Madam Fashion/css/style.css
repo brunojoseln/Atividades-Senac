@@ -18,9 +18,8 @@ h3{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    line-height: 1.2;
 }
-
-
 
 nav{
     width: 1024px;
@@ -35,7 +34,6 @@ nav{
 nav img{
     width: 127px;
 }
-
 
 .menu{
     list-style: none;
@@ -67,7 +65,7 @@ header{
 }
 
 .cards{
-    width: 720px;
+    width: 1024px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -98,6 +96,23 @@ header{
     padding: 5px;
 }
 
+.cardinternoroupas{
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+}
+
+figcaption{
+    position: absolute;
+    top: 360px;
+    left: 15px;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
 .botaocard{
     background-color: white;
     color: #851414;
@@ -117,6 +132,7 @@ header{
 article{
     font-size: 14px;;
     line-height: 2;
+    text-align: justify;
 }
 
 footer{
