@@ -135,6 +135,8 @@ article{
     text-align: justify;
 }
 
+/* Rodapé */
+
 footer{
     color: white;
     background-color: #851414;
@@ -143,4 +145,61 @@ footer{
     padding-bottom: 40px;
     margin-top: 49px;
     font-size: 12px;
+    font-weight: bold;
+}
+
+/* Página contato */
+
+.contato{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esquerdo{
+    margin-right: 50px;
+}
+
+.direito{
+    width: 744px;
+    display: flex;
+    justify-content: center;
+}
+
+input, textarea{
+    border: 1px solid #581414;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 744px;
+}
+
+.direito p{
+    margin-bottom: 3px;
+}
+
+textarea{
+    height: 119px;;
+}
+
+.botaoform{
+    text-align: end;
+}
+
+.botaocontato{
+    background-color: #851414;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 70px;
+}
+
+.botaocontato:hover{
+    color:#851414;
+    background-color: white;
+    border: 2px solid #851414;
+    transition: 1s;
 }
