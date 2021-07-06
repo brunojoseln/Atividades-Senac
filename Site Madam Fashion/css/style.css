@@ -276,12 +276,12 @@ textarea{
 
 /* Smarthphone 767 até 320 */
 
-@media (max-width: 767px){
+@media (max-width: 1000px){
     
     main{
         width: 360px;
     }
-    
+
 
     nav{
         width: 282px;
