@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Revisão</title>
+        <style>
+            *{
+                margin: 0;
+            }
+            body{
+                font-family: monospace;
+            }
+            header{
+                background-color: coral;
+            }
+
+            header img{
+                width: 100px;
+                border-radius: 60px;
+            }
+
+            .menu{
+                width: 600px;
+                margin: auto;
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+                padding-bottom: 10px;
+                padding-top: 10px;
+                margin-bottom: 20px;
+            }
+
+            .menu a{
+                text-decoration: none;
+                font-size: 25px;
+                color: black;
+            }
+
+            .menu a:hover{
+                text-decoration: underline;
+            }
+
+            /* Conteúdo */
+
+            h1, h2{
+                text-align: center;
+            }
+
+            h2{
+                margin-bottom: 25px;
+            }
+
+            h1{
+                margin-bottom: 15px;
+            }
+
+            main{
+                width: 1080px;
+                margin: auto;
+            }
+
+            table{
+                width: 1080px;
+                margin: auto;
+                text-align: center;
+                border: black dashed 2px;
+                border-collapse: collapse;
+                margin-bottom: 30px;
+            }
+
+            th, td, tr{
+                border: black solid 1px;
+                padding: 5px;
+            }
+
+            th{
+                background-color: lightgrey;
+            }
+
+            .pai{
+                width: 1080px;
+                margin: auto;
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 10px;
+            }
+
+            section{
+                text-align: justify;
+                padding: 15px;
+            }
+
+            section h3{
+                text-align: center;
+            }
+
+            footer p{
+                background-color: lightsalmon;
+                margin: auto;
+                text-align: center;
+                font-weight: bold;
+                padding: 30px;
+                margin-top: 30px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Livros</a></li>
+                    <li><a href="#">Jogos</a></li>
+                    <img src="Logo.png" alt="">
+                    <li><a href="#">Séries</a></li>
+                    <li><a href="#">Filmes</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Separação de divs</h1>
+            <div class="pai">
+                <section>
+                    <h3>Novidades</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                </section>
+                <section>
+                    <h3>Noticias</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                </section>
+                <section>
+                    <h3>Jogos</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                </section>
+            </div>
+            <h1>Tabela</h1>
+            <table>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <tr>
+                    <td>Batata</td>
+                    <td>1,50 R$</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Feijão</td>
+                    <td>5,00 R$</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Cenoura</td>
+                    <td>2,30 R$</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>Pimentão</td>
+                    <td>2,00 R$</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Cebola</td>
+                    <td>1,75 R$</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>Nabo</td>
+                    <td>4,20 R$</td>
+                    <td>50</td>
+                </tr>
+            </table>
+
+        </main>
+        <footer>
+            <p>
+                Todos os direitos reservados
+            </p>
+        </footer>
+    </body>
+</html>
