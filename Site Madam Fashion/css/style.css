@@ -242,7 +242,6 @@ textarea{
         width: 610px;
         margin: auto;
         justify-content: space-between;
-        /* flex-direction: column; */
     }
     
     .cardinterno{
@@ -291,6 +290,13 @@ textarea{
         font-weight: bold;
     }
 
+    .esquerdo{
+        display: none;
+    }
+    
+    input, textarea{
+        width: 700px;
+    }
 }
 
 /* Smarthphone 767 até 320 */
@@ -379,6 +385,11 @@ textarea{
         font-size: 18px;
         margin-bottom: 30px;
         font-weight: bold;
+    }
+
+    
+    input, textarea{
+        width: 300px;
     }
 
 
