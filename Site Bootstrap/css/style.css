@@ -1,0 +1,33 @@
+.bg-navegacao{
+    background-color: gainsboro;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+}
+
+nav img{
+    width: 80px;
+}
+
+h2{
+    color: #FC3003;
+}
+
+#produtos, #contato{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.carousel{
+    margin-bottom: 50px;
+}
